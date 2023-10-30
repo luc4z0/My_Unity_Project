@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 295736259}
   - component: {fileID: 295736261}
   m_Layer: 5
-  m_Name: Speed Text
+  m_Name: Acceleration Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Speed
+  m_text: Acceleration
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -594,8 +594,8 @@ GameObject:
   - component: {fileID: 519309005}
   - component: {fileID: 519309004}
   m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
+  m_Name: MainCamera
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 819152021}
   - component: {fileID: 819152022}
   m_Layer: 5
-  m_Name: Speed Slider
+  m_Name: Acceleration Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -778,7 +778,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1775797542}
         m_TargetAssemblyTypeName: ship, Assembly-CSharp
-        m_MethodName: UpdateSpeed
+        m_MethodName: UpdateAcceleration
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

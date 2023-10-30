@@ -12,7 +12,7 @@ public class Speed_Text : MonoBehaviour
     // Update is called once per frame
     public void textUpdate(float value)
     {
-        myText.SetText("Speed: " + value.ToString("n2"));
+        myText.SetText("Acceleration: " + value.ToString("n2"));
         
     }
 }
